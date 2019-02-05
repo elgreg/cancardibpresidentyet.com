@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Can Cardi B President Yet</title>
+  <meta name="author" content="elgreg">
+  <meta name="description" content="Can Cardi B President Yet">
+  <meta name="keywords" content="cardi b,president">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" data-attribution="leash by Llisole from the Noun Project">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins" type="text/css">
+  <style>
+  body{font-family: 'Poppins', sans-serif;}
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133834928-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133834928-1');
+</script>
+  </head>
+  <body>
+
+   <h1>Can Cardi B President Yet</h1>
+   <h2 id="answer">Calculating</h2>
+
+  <script type="text/javascript">
+    function updateAnwser(isPrez){
+      if(isPrez){
+        document.getElementById("answer").innerHTML = "Yes.";
+      } else {
+        document.getElementById("answer").innerHTML = "No.";
+      }
+    }
+   function autorun()
+   {
+     var cardiBDay = new Date("Sun Oct 11 1992 00:00:00 GMT-0400 (Eastern Daylight Time)");
+     var cardiBPresidentDay = new Date("Oct 11 2027 00:00:00 GMT-0400 (Eastern Daylight Time)");
+     var rn = new Date();
+    //  debugger;
+     if(cardiBPresidentDay - rn < 0){
+      updateAnwser(true);
+     } else {
+      updateAnwser(false);
+     }
+   }
+   if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
+   else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
+   else window.onload = autorun;
+  </script>
+  </body>
+</html>
